@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/calc1")   // ✅ base path added
+@RequestMapping("/calc")   // ✅ base path added
 public class ACalc {
 
     @GetMapping("add/{A}/{B}")
